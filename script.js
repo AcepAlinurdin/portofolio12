@@ -115,13 +115,13 @@ document.addEventListener('DOMContentLoaded', function() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: 'https://assets2.lottiefiles.com/packages/lf20_qpwbijrx.json' // GANTI DENGAN PATH FILE JSON ANDA
+            path: 'asset/AI DataTransfer.json' // GANTI DENGAN PATH FILE JSON ANDA
         });
     } else {
         console.error('Lottie player (lottie-web) tidak ditemukan.');
     }
 
-    // Inisialisasi Particles.js
+ 
     if (typeof particlesJS !== 'undefined') {
         particlesJS('particles-js', {
             "particles": {
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "detect_on": "window",
                 "events": { 
                     "onhover": { "enable": true, "mode": "grab" }, 
-                    "onclick": { "enable": true, "mode": "push" }, // Klik dinonaktifkan
+                    "onclick": { "enable": true, "mode": "push" }, 
                     "resize": true 
                 },
                 "modes": {
