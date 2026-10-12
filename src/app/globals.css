@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+body { margin: 0; background: #f3f0e8; }
+::selection { background: #d9ed7c; color: #20221d; }
+:focus-visible { outline: 2px solid #ff6338; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
