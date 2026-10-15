@@ -62,7 +62,17 @@ async function ProjectDetailContent({ params }) {
         </div>
       </article>
 
-      <footer className={styles.footer}><Link className={styles.wordmark} href="/">Acep Alinurdin</Link><span>© 2026</span><div><Link href="/#work">Semua proyek</Link><Link href="/#contact">Kontak</Link></div></footer>
+      <footer className={styles.footer}>
+        <Link className={styles.wordmark} href="/">Acep Alinurdin</Link>
+        <span>© 2026</span>
+        <div>
+          <Link href="/#work">Semua proyek</Link>
+          <a href="https://linkedin.com/in/acepalinurdin" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/AcepAlinurdin" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://instagram.com/acep_alinurdin?mdxt=MW4zbDAwZ3BzaHIwNA%3D%3D" target="_blank" rel="noreferrer">Instagram ↗</a>
+          <a href="https://www.tiktok.com/@naz._587?_r=1&_t=ZS-9AYxzjiP7WW" target="_blank" rel="noreferrer">TikTok ↗</a>
+        </div>
+      </footer>
     </main>
   );
 }

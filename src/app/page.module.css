@@ -94,10 +94,13 @@
 .email { padding-bottom: 8px; border-bottom: 1px solid rgba(243,240,232,.5); font-size: 18px; }
 .email span { color: #e78a6f; }
 .phone { color: #c7c3bb; font-size: 12px; }
+.contactSocials { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 6px; }
+.contactSocials a { color: #c7c3bb; font-size: 13px; text-decoration: none; transition: color .2s; }
+.contactSocials a:hover { color: #e78a6f; }
 .contactBottom p { max-width: 240px; margin: 0; font-size: 12px; line-height: 1.7; }
 .footer { display: flex; min-height: 85px; align-items: center; gap: 25px; padding: 20px 8vw; border-top: 1px solid var(--line); background: var(--paper); color: var(--muted); font-size: 11px; }
 .footer > span { margin-right: auto; }
-.footer div { display: flex; gap: 18px; }
+.footer div { display: flex; gap: 18px; flex-wrap: wrap; }
 
 @supports (animation-timeline: view()) {
   .about, .work, .experience, .contact {
@@ -144,5 +147,5 @@
   .contactBottom { align-items: start; flex-direction: column; }
   .footer { flex-wrap: wrap; gap: 13px; padding: 20px 7vw; }
   .footer > span { margin-right: 0; flex: 1; }
-  .footer div { width: 100%; padding-left: 0; }
+  .footer div { width: 100%; padding-left: 0; flex-wrap: wrap; gap: 14px; }
 }

@@ -17,7 +17,7 @@
 .navLinks { margin-left: auto; display: flex; gap: 25px; align-items: center; font-size: 12px; font-weight: 600; }
 .footer { display: flex; min-height: 85px; align-items: center; gap: 25px; padding: 20px 8vw; border-top: 1px solid var(--line); background: var(--paper); color: var(--muted); font-size: 11px; }
 .footer > span { margin-right: auto; }
-.footer div { display: flex; gap: 18px; }
+.footer div { display: flex; gap: 18px; flex-wrap: wrap; }
 .detailPage { max-width: 1000px; margin: 0 auto; padding: 56px 8vw 110px; }
 .detailLoading { min-height: 60vh; display: grid; place-content: center; color: var(--muted); font-size: 14px; }
 .backLink { display: inline-block; margin-bottom: 54px; color: #55534e; font-size: 13px; }
@@ -44,7 +44,7 @@
   .navLinks { gap: 12px; font-size: 10px; }
   .footer { flex-wrap: wrap; gap: 13px; padding: 20px 7vw; }
   .footer > span { margin-right: 0; flex: 1; }
-  .footer div { width: 100%; padding-left: 0; }
+  .footer div { width: 100%; padding-left: 0; flex-wrap: wrap; gap: 14px; }
   .detailPage { padding: 35px 7vw 75px; }
   .backLink { margin-bottom: 42px; }
   .detailSummary { font-size: 16px; }

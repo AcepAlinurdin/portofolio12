@@ -65,10 +65,31 @@ export default function Home() {
       <section className={styles.contact} id="contact">
         <p className={styles.eyebrow}>04 / KONTAK</p>
         <h2>Hubungi saya<span>.</span></h2>
-        <div className={styles.contactBottom}><div className={styles.contactMethods}><a className={styles.email} href="mailto:acepali2253@gmail.com">acepali2253@gmail.com <span aria-hidden="true">↗</span></a><a className={styles.phone} href="tel:+628****2684">+62 882-0008-82684</a></div><p>Garut, Jawa Barat, Indonesia</p></div>
+        <div className={styles.contactBottom}>
+          <div className={styles.contactMethods}>
+            <a className={styles.email} href="mailto:acepali2253@gmail.com">acepali2253@gmail.com <span aria-hidden="true">↗</span></a>
+            <a className={styles.phone} href="tel:+62882000882684">+62 882-0008-82684</a>
+            <div className={styles.contactSocials}>
+              <a href="https://instagram.com/acep_alinurdin?mdxt=MW4zbDAwZ3BzaHIwNA%3D%3D" target="_blank" rel="noreferrer">Instagram ↗</a>
+              <a href="https://www.tiktok.com/@naz._587?_r=1&_t=ZS-9AYxzjiP7WW" target="_blank" rel="noreferrer">TikTok ↗</a>
+              <a href="https://linkedin.com/in/acepalinurdin" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+              <a href="https://github.com/AcepAlinurdin" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </div>
+          </div>
+          <p>Garut, Jawa Barat, Indonesia</p>
+        </div>
       </section>
 
-      <footer className={styles.footer}><a className={styles.wordmark} href="#top">Acep Alinurdin</a><span>© 2026</span><div><a href="https://linkedin.com/in/acepalinurdin" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/AcepAlinurdin" target="_blank" rel="noreferrer">GitHub ↗</a></div></footer>
+      <footer className={styles.footer}>
+        <a className={styles.wordmark} href="#top">Acep Alinurdin</a>
+        <span>© 2026</span>
+        <div>
+          <a href="https://linkedin.com/in/acepalinurdin" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/AcepAlinurdin" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://instagram.com/acep_alinurdin?mdxt=MW4zbDAwZ3BzaHIwNA%3D%3D" target="_blank" rel="noreferrer">Instagram ↗</a>
+          <a href="https://www.tiktok.com/@naz._587?_r=1&_t=ZS-9AYxzjiP7WW" target="_blank" rel="noreferrer">TikTok ↗</a>
+        </div>
+      </footer>
     </main>
   );
 }
