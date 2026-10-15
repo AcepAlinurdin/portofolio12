@@ -3,6 +3,13 @@ import "./globals.css";
 export const metadata = {
   title: "Acep Alinurdin — Software Engineer & Creative Technologist",
   description: "Portofolio Acep Alinurdin, lulusan Teknik Informatika UNIKOM dengan pengalaman software engineering, creative technology, full-stack development, dan project management.",
+  icons: {
+    icon: [
+      { url: "/p.png", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: "/p.png",
+  },
 };
 
 export default function RootLayout({ children }) {

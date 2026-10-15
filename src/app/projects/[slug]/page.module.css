@@ -13,7 +13,10 @@
 .page a { color: inherit; text-decoration: none; }
 .page a:hover { color: var(--accent); }
 .nav { height: 74px; padding: 0 8vw; display: flex; align-items: center; border-bottom: 1px solid var(--line); }
-.wordmark { font-size: 15px; font-weight: 700; letter-spacing: -.02em; }
+.wordmark { display: inline-flex; align-items: center; gap: 11px; font-size: 15px; font-weight: 700; letter-spacing: -.02em; }
+.navAvatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; border: 1.5px solid var(--line); box-shadow: 0 1px 4px rgba(0,0,0,.08); transition: transform .25s ease, border-color .25s ease; }
+.wordmark:hover .navAvatar { transform: scale(1.08); border-color: var(--accent); }
+.wordmarkName { display: inline-block; }
 .navLinks { margin-left: auto; display: flex; gap: 25px; align-items: center; font-size: 12px; font-weight: 600; }
 .footer { display: flex; min-height: 85px; align-items: center; gap: 25px; padding: 20px 8vw; border-top: 1px solid var(--line); background: var(--paper); color: var(--muted); font-size: 11px; }
 .footer > span { margin-right: auto; }

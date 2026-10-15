@@ -26,7 +26,10 @@ async function ProjectDetailContent({ params }) {
   return (
     <main className={styles.page}>
       <header className={styles.nav}>
-        <Link className={styles.wordmark} href="/">Acep Alinurdin</Link>
+        <Link className={styles.wordmark} href="/" aria-label="Acep Alinurdin, kembali ke beranda">
+          <img src="/p.png" alt="Acep Alinurdin" width="32" height="32" className={styles.navAvatar} />
+          <span className={styles.wordmarkName}>Acep Alinurdin</span>
+        </Link>
         <nav aria-label="Navigasi" className={styles.navLinks}><Link href="/#work">SEMUA PROYEK</Link><Link href="/#about">PROFIL</Link><Link href="/#contact">KONTAK</Link></nav>
       </header>
 
@@ -67,10 +70,9 @@ async function ProjectDetailContent({ params }) {
         <span>© 2026</span>
         <div>
           <Link href="/#work">Semua proyek</Link>
-          <a href="https://linkedin.com/in/acepalinurdin" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          <a href="https://github.com/AcepAlinurdin" target="_blank" rel="noreferrer">GitHub ↗</a>
           <a href="https://instagram.com/acep_alinurdin?mdxt=MW4zbDAwZ3BzaHIwNA%3D%3D" target="_blank" rel="noreferrer">Instagram ↗</a>
           <a href="https://www.tiktok.com/@naz._587?_r=1&_t=ZS-9AYxzjiP7WW" target="_blank" rel="noreferrer">TikTok ↗</a>
+          <a href="https://github.com/AcepAlinurdin" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
       </footer>
     </main>
